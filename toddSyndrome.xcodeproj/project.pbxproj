@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C73043621DC9037600E57D2D /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73043611DC9037600E57D2D /* customButton.swift */; };
+		C73043641DC9038C00E57D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73043631DC9038C00E57D2D /* AppDelegate.swift */; };
+		C73043661DC903EB00E57D2D /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73043651DC903EB00E57D2D /* Patient.swift */; };
+		C73043681DC9041500E57D2D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73043671DC9041500E57D2D /* Utilities.swift */; };
+		C730436C1DC9042F00E57D2D /* AddPatientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73043691DC9042F00E57D2D /* AddPatientController.swift */; };
+		C730436D1DC9042F00E57D2D /* InfoSlidesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C730436A1DC9042F00E57D2D /* InfoSlidesController.swift */; };
+		C730436E1DC9042F00E57D2D /* ToddsSyndromeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C730436B1DC9042F00E57D2D /* ToddsSyndromeController.swift */; };
+		C76D37141DC8B7BC001EE2EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76D37131DC8B7BC001EE2EB /* Launch Screen.storyboard */; };
+		C7CEEC2F1DC647B80003A386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CEEC2D1DC647B80003A386 /* Main.storyboard */; };
+		C7CEEC311DC647B80003A386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CEEC301DC647B80003A386 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C73043611DC9037600E57D2D /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customButton.swift; path = Swift/Design/customButton.swift; sourceTree = "<group>"; };
+		C73043631DC9038C00E57D2D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Swift/AppDelegate.swift; sourceTree = "<group>"; };
+		C73043651DC903EB00E57D2D /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Patient.swift; path = Swift/Model/Patient.swift; sourceTree = "<group>"; };
+		C73043671DC9041500E57D2D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = Swift/Util/Utilities.swift; sourceTree = "<group>"; };
+		C73043691DC9042F00E57D2D /* AddPatientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPatientController.swift; path = Swift/Controller/AddPatientController.swift; sourceTree = "<group>"; };
+		C730436A1DC9042F00E57D2D /* InfoSlidesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoSlidesController.swift; path = Swift/Controller/InfoSlidesController.swift; sourceTree = "<group>"; };
+		C730436B1DC9042F00E57D2D /* ToddsSyndromeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToddsSyndromeController.swift; path = Swift/Controller/ToddsSyndromeController.swift; sourceTree = "<group>"; };
+		C76D37131DC8B7BC001EE2EB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C7CEEC261DC647B80003A386 /* toddSyndrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toddSyndrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CEEC2E1DC647B80003A386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7CEEC301DC647B80003A386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7CEEC351DC647B80003A386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CEEC231DC647B80003A386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7CEEC1D1DC647B80003A386 = {
+			isa = PBXGroup;
+			children = (
+				C7CEEC281DC647B80003A386 /* toddSyndrome */,
+				C7CEEC271DC647B80003A386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CEEC271DC647B80003A386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEEC261DC647B80003A386 /* toddSyndrome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CEEC281DC647B80003A386 /* toddSyndrome */ = {
+			isa = PBXGroup;
+			children = (
+				C73043631DC9038C00E57D2D /* AppDelegate.swift */,
+				C7CEEC3D1DC6487D0003A386 /* Model */,
+				C7CEEC3B1DC648670003A386 /* View */,
+				C7CEEC3C1DC6486E0003A386 /* Controller */,
+				C7D626DB1DC7530C0080005C /* Design */,
+				C7CEEC351DC647B80003A386 /* Info.plist */,
+			);
+			path = toddSyndrome;
+			sourceTree = "<group>";
+		};
+		C7CEEC3B1DC648670003A386 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEEC2D1DC647B80003A386 /* Main.storyboard */,
+				C76D37131DC8B7BC001EE2EB /* Launch Screen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C7CEEC3C1DC6486E0003A386 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C73043691DC9042F00E57D2D /* AddPatientController.swift */,
+				C730436A1DC9042F00E57D2D /* InfoSlidesController.swift */,
+				C730436B1DC9042F00E57D2D /* ToddsSyndromeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C7CEEC3D1DC6487D0003A386 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C73043651DC903EB00E57D2D /* Patient.swift */,
+				C7FE18321DC8D3DE00BD335D /* Util */,
+				C7FE18331DC8D3E500BD335D /* Design */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C7D626DB1DC7530C0080005C /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEEC301DC647B80003A386 /* Assets.xcassets */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		C7FE18321DC8D3DE00BD335D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C73043671DC9041500E57D2D /* Utilities.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C7FE18331DC8D3E500BD335D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C73043611DC9037600E57D2D /* customButton.swift */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CEEC251DC647B80003A386 /* toddSyndrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CEEC381DC647B80003A386 /* Build configuration list for PBXNativeTarget "toddSyndrome" */;
+			buildPhases = (
+				C7CEEC221DC647B80003A386 /* Sources */,
+				C7CEEC231DC647B80003A386 /* Frameworks */,
+				C7CEEC241DC647B80003A386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toddSyndrome;
+			productName = toddSyndrome;
+			productReference = C7CEEC261DC647B80003A386 /* toddSyndrome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CEEC1E1DC647B80003A386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Goojoob;
+				TargetAttributes = {
+					C7CEEC251DC647B80003A386 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3RX5X832Z3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7CEEC211DC647B80003A386 /* Build configuration list for PBXProject "toddSyndrome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7CEEC1D1DC647B80003A386;
+			productRefGroup = C7CEEC271DC647B80003A386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CEEC251DC647B80003A386 /* toddSyndrome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CEEC241DC647B80003A386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76D37141DC8B7BC001EE2EB /* Launch Screen.storyboard in Resources */,
+				C7CEEC311DC647B80003A386 /* Assets.xcassets in Resources */,
+				C7CEEC2F1DC647B80003A386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CEEC221DC647B80003A386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730436D1DC9042F00E57D2D /* InfoSlidesController.swift in Sources */,
+				C73043641DC9038C00E57D2D /* AppDelegate.swift in Sources */,
+				C73043621DC9037600E57D2D /* customButton.swift in Sources */,
+				C73043661DC903EB00E57D2D /* Patient.swift in Sources */,
+				C73043681DC9041500E57D2D /* Utilities.swift in Sources */,
+				C730436E1DC9042F00E57D2D /* ToddsSyndromeController.swift in Sources */,
+				C730436C1DC9042F00E57D2D /* AddPatientController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7CEEC2D1DC647B80003A386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CEEC2E1DC647B80003A386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7CEEC361DC647B80003A386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7CEEC371DC647B80003A386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7CEEC391DC647B80003A386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RX5X832Z3;
+				INFOPLIST_FILE = toddSyndrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.goojoob.toddSyndrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C7CEEC3A1DC647B80003A386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RX5X832Z3;
+				INFOPLIST_FILE = toddSyndrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.goojoob.toddSyndrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CEEC211DC647B80003A386 /* Build configuration list for PBXProject "toddSyndrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CEEC361DC647B80003A386 /* Debug */,
+				C7CEEC371DC647B80003A386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CEEC381DC647B80003A386 /* Build configuration list for PBXNativeTarget "toddSyndrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CEEC391DC647B80003A386 /* Debug */,
+				C7CEEC3A1DC647B80003A386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7CEEC1E1DC647B80003A386 /* Project object */;
+}
