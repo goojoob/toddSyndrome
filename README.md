@@ -18,6 +18,7 @@ This application can help you understand several concepts about iOS Developing l
 <li>Animation, transition and delay effects between views using segues.</li>
 <li>Pass objects between segues.</li>
 <li>Navigate between text fields using screen keyboard.</li>
+<li>Write unit tests to make your code more reliable, safer, and easier to debug.</li>
 <li>Use of Autolayout to display the application in all devices.</li>
 <li>Use of our own classes to reuse their functionalities (Patient.swift class).</li>
 <li>Clean Code codification: easy to read, no duplicated, beautiful, simple and direct.</li>

@@ -14,10 +14,21 @@
 		C730436C1DC9042F00E57D2D /* AddPatientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73043691DC9042F00E57D2D /* AddPatientController.swift */; };
 		C730436D1DC9042F00E57D2D /* InfoSlidesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C730436A1DC9042F00E57D2D /* InfoSlidesController.swift */; };
 		C730436E1DC9042F00E57D2D /* ToddsSyndromeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C730436B1DC9042F00E57D2D /* ToddsSyndromeController.swift */; };
+		C75357DA1DC918F6009316AA /* toddSyndromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75357D91DC918F6009316AA /* toddSyndromeTests.swift */; };
 		C76D37141DC8B7BC001EE2EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76D37131DC8B7BC001EE2EB /* Launch Screen.storyboard */; };
 		C7CEEC2F1DC647B80003A386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CEEC2D1DC647B80003A386 /* Main.storyboard */; };
 		C7CEEC311DC647B80003A386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CEEC301DC647B80003A386 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75357DC1DC918F6009316AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CEEC1E1DC647B80003A386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CEEC251DC647B80003A386;
+			remoteInfo = toddSyndrome;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C73043611DC9037600E57D2D /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customButton.swift; path = Swift/Design/customButton.swift; sourceTree = "<group>"; };
@@ -27,6 +38,10 @@
 		C73043691DC9042F00E57D2D /* AddPatientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPatientController.swift; path = Swift/Controller/AddPatientController.swift; sourceTree = "<group>"; };
 		C730436A1DC9042F00E57D2D /* InfoSlidesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoSlidesController.swift; path = Swift/Controller/InfoSlidesController.swift; sourceTree = "<group>"; };
 		C730436B1DC9042F00E57D2D /* ToddsSyndromeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToddsSyndromeController.swift; path = Swift/Controller/ToddsSyndromeController.swift; sourceTree = "<group>"; };
+		C75357CE1DC914C2009316AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C75357D71DC918F6009316AA /* toddSyndromeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toddSyndromeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75357D91DC918F6009316AA /* toddSyndromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toddSyndromeTests.swift; sourceTree = "<group>"; };
+		C75357DB1DC918F6009316AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C76D37131DC8B7BC001EE2EB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C7CEEC261DC647B80003A386 /* toddSyndrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toddSyndrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CEEC2E1DC647B80003A386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +50,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C75357D41DC918F6009316AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7CEEC231DC647B80003A386 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,11 +67,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C75357CD1DC914C1009316AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C75357CE1DC914C2009316AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C75357D81DC918F6009316AA /* toddSyndromeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75357D91DC918F6009316AA /* toddSyndromeTests.swift */,
+				C75357DB1DC918F6009316AA /* Info.plist */,
+			);
+			path = toddSyndromeTests;
+			sourceTree = "<group>";
+		};
 		C7CEEC1D1DC647B80003A386 = {
 			isa = PBXGroup;
 			children = (
 				C7CEEC281DC647B80003A386 /* toddSyndrome */,
+				C75357D81DC918F6009316AA /* toddSyndromeTests */,
 				C7CEEC271DC647B80003A386 /* Products */,
+				C75357CD1DC914C1009316AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C7CEEC261DC647B80003A386 /* toddSyndrome.app */,
+				C75357D71DC918F6009316AA /* toddSyndromeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +172,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C75357D61DC918F6009316AA /* toddSyndromeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75357DE1DC918F6009316AA /* Build configuration list for PBXNativeTarget "toddSyndromeTests" */;
+			buildPhases = (
+				C75357D31DC918F6009316AA /* Sources */,
+				C75357D41DC918F6009316AA /* Frameworks */,
+				C75357D51DC918F6009316AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75357DD1DC918F6009316AA /* PBXTargetDependency */,
+			);
+			name = toddSyndromeTests;
+			productName = toddSyndromeTests;
+			productReference = C75357D71DC918F6009316AA /* toddSyndromeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C7CEEC251DC647B80003A386 /* toddSyndrome */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CEEC381DC647B80003A386 /* Build configuration list for PBXNativeTarget "toddSyndrome" */;
@@ -157,6 +217,12 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Goojoob;
 				TargetAttributes = {
+					C75357D61DC918F6009316AA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3RX5X832Z3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7CEEC251DC647B80003A386;
+					};
 					C7CEEC251DC647B80003A386 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3RX5X832Z3;
@@ -178,11 +244,19 @@
 			projectRoot = "";
 			targets = (
 				C7CEEC251DC647B80003A386 /* toddSyndrome */,
+				C75357D61DC918F6009316AA /* toddSyndromeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C75357D51DC918F6009316AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7CEEC241DC647B80003A386 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,6 +270,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C75357D31DC918F6009316AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75357DA1DC918F6009316AA /* toddSyndromeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7CEEC221DC647B80003A386 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +294,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C75357DD1DC918F6009316AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CEEC251DC647B80003A386 /* toddSyndrome */;
+			targetProxy = C75357DC1DC918F6009316AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		C7CEEC2D1DC647B80003A386 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -224,6 +314,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C75357DF1DC918F6009316AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3RX5X832Z3;
+				INFOPLIST_FILE = toddSyndromeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.goojoob.toddSyndromeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toddSyndrome.app/toddSyndrome";
+			};
+			name = Debug;
+		};
+		C75357E01DC918F6009316AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3RX5X832Z3;
+				INFOPLIST_FILE = toddSyndromeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.goojoob.toddSyndromeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toddSyndrome.app/toddSyndrome";
+			};
+			name = Release;
+		};
 		C7CEEC361DC647B80003A386 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,6 +464,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C75357DE1DC918F6009316AA /* Build configuration list for PBXNativeTarget "toddSyndromeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75357DF1DC918F6009316AA /* Debug */,
+				C75357E01DC918F6009316AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C7CEEC211DC647B80003A386 /* Build configuration list for PBXProject "toddSyndrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
