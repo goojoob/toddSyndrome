@@ -4,7 +4,7 @@ Application to test Todd's Syndrome in patients
 This is a sample Swift 3 application developed in XCode 8 for iOS 10.<br>
 You just have to download the project and run it in a XCode 8 environment to get it working.
 
-![alt tag](http://goojoob.es/VARIOS/ToddsSyndrome.jpg)
+![Todd](https://code.goojoob.es/VARIOS/ToddsSyndrome.jpg)
 
 ## If you are new to Swift3
 This application can help you understand several concepts about iOS Developing like:<br>
